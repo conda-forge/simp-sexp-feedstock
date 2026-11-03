@@ -1,12 +1,12 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 package:
   name: simp-sexp
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/simp-sexp/simp_sexp-{{ version }}.tar.gz
-  sha256: 9d0c57bd5f8400b9fe558ea36b7518067ddbe727a106b1498c7fa104b77c1ca1
+  url: https://files.pythonhosted.org/packages/source/s/simp-sexp/simp_sexp-{{ version }}.tar.gz
+  sha256: 5e8ee29e5b2ae2c77279cf0e76014ffae21a54b57b1315a07009e7d4f8e4120b
 
 build:
   noarch: python
